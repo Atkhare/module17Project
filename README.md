@@ -18,9 +18,11 @@ The link to repor -
   > ***Progrmming language***  Python
 
   > ***Packages***
-  >  Pandas, Numpy, Seaborn, Plotly, Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder, Matplotlib, PCA,RandomForestClassifier,
-              >train_test_split, DummyClassifier, classification_report, LogisticRegression, sklearn.metrics, accuracy_score,roc_curve, roc_auc_score, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV         
-  >2. Skilear
+  >  Pandas, Numpy,
+  >  Seaborn, Plotly, Matplotlib
+  >  Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder
+  >  PCA, RandomForestClassifier, train_test_split, DummyClassifier, classification_report, accuracy_score,roc_curve, roc_auc_score
+  >  LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV
    
 
 
