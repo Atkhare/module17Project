@@ -13,7 +13,8 @@ The dataset comes from the UCI Machine Learning repository [link](https://archiv
 > **Repo Notebook**
 The link to repor - 
 
-> ** Approach Framework **
+> **Approach Framework**
+
   > Progrmming language - Python
   > Packages - Pandas, Numpy, Seaborn, Plotly, Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder, Matplotlib, PCA,RandomForestClassifier,
               >train_test_split, DummyClassifier, classification_report, LogisticRegression, sklearn.metrics, accuracy_score,roc_curve, roc_auc_score, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV         
