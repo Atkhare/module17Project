@@ -9,15 +9,7 @@ In this practical application, the goal is to compare the performance of the cla
 >
 > Used CRISP-DM model to achieve the business goals
 
-
-   ![image](https://github.com/user-attachments/assets/937f6f2a-b9e1-41e8-8396-193a2c46b57a)
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/937f6f2a-b9e1-41e8-8396-193a2c46b57a)
 
 
 > **Business Understanding**
