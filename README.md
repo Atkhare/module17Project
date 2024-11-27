@@ -1,3 +1,7 @@
+```diff
+Text
+```
+
 # Machine Learning Model
 
 > **Overview** 
@@ -11,21 +15,28 @@ The dataset comes from the UCI Machine Learning repository [link](https://archiv
 > To find the effectiveness of marketting campaigns, Portugese bank reached out to customers from their contact centers and collected the customer perspective. This collected data along with the internal customer data within bank was used to prepare the dataset features for analysis. The classification goal was to determine if a client will subscribe to a term deposite. The team used 3 iterartions of campaign to fine tune the predective model
 
 > **Data Preperation**
-The data is first analysed on the missing or NAN elements, then the data aggregration is done to analyse the trend & unique components in column and row wise.The dataset features is being analysed by generating the correlation matrix      
+The data is first analysed on the missing or NAN elements, then the data aggregration is done to analyse the trend & unique components in column and row wise.The data is being imputed for any missing/ unknown values. Also the data encoing is done for catagorical features. The final dataframe is scaled using Standard scaler.
+
+> **Feature Engineering**
+> - Analysed imbalance in Target class
+> - The correlation between dataset features is being analysed by generating the `Correlation Matrix Heatmap` over scaled dataframe.
+> - Executed `PCA` to anayse the scope for dimension reduction
+> - Scored feature importance using `RandomForestClassifier` and `mutual_info_regression`          
 
 > **Repo Notebook**
 The link to repor - 
 
 > **Tech Stack**
->> ***Language*** Python
-> > 
-> > ***Packages***
-Pandas, Numpy
-Seaborn, Plotly, Matplotlib, Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder, PCA, RandomForestClassifier, train_test_split,
-DummyClassifier, classification_report, accuracy_score,roc_curve, roc_auc_score, LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV
+>> $${\color{blue}Language}$$ Python
+>> 
+>> $${\color{blue}Packages}$$
+>> Pandas, Numpy, Seaborn, Plotly, Matplotlib, Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder, PCA, RandomForestClassifier, train_test_split, DummyClassifier, classification_report, accuracy_score,roc_curve, roc_auc_score, LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV
 
 ##### This'll be a _Helpful_ Section About the Greek Letter Θ!
 A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
+
+$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
+
 
    
 
