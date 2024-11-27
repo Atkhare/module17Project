@@ -6,6 +6,19 @@ Text
 
 > **Overview** 
 In this practical application, the goal is to compare the performance of the classifiers, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. The data was collect by Portuguese bank that used its own contact-center to do directed marketing campaigns. The telephone, with a human agent as the interlocutor, was the dominant marketing channel, although sometimes with an auxiliary use of the Internet online banking channel (e.g. by showing information to specific targeted client).
+>
+> Used CRISP-DM model to achieve the business goals
+
+
+   ![image](https://github.com/user-attachments/assets/937f6f2a-b9e1-41e8-8396-193a2c46b57a)
+
+
+
+
+
+
+
+
 
 > **Business Understanding**
 The business goal is to find a model that can explain success of a contact with client, i.e. if the client subscribes the term deposit. The classification model can increase campaign efficiency by identifying the main characteristics that affect success, helping in a better management of the available resources (e.g. human effort, phone calls, time) and selection of a high quality and affordable set of potential buying customers.
@@ -18,10 +31,12 @@ The dataset comes from the UCI Machine Learning repository [link](https://archiv
 The data is first analysed on the missing or NAN elements, then the data aggregration is done to analyse the trend & unique components in column and row wise.The data is being imputed for any missing/ unknown values. Also the data encoing is done for catagorical features. The final dataframe is scaled using Standard scaler.
 
 > **Feature Engineering**
-> - Analysed imbalance in Target class
+> - Analysed imbalance in Target class from provided dataframe. 
 > - The correlation between dataset features is being analysed by generating the `Correlation Matrix Heatmap` over scaled dataframe.
-> - Executed `PCA` to anayse the scope for dimension reduction
-> - Scored feature importance using `RandomForestClassifier` and `mutual_info_regression`          
+> - Executed `PCA` to anayse the scope for dimension reduction.
+> - Scored feature importance using `RandomForestClassifier` and `mutual_info_regression`
+ 
+
 
 > **Repo Notebook**
 The link to repor - 
