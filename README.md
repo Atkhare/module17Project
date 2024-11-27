@@ -13,7 +13,10 @@ The dataset comes from the UCI Machine Learning repository [link](https://archiv
 > **Repo Notebook**
 The link to repor - 
 
-
+> ** Approach Framework **
+  >1. Python
+  >2. Skilear
+   
 
 
 
