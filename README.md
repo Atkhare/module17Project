@@ -41,18 +41,23 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
 > - $${\color{mediumblue}Model \space performance \space tuning}$$
 > The model is now tuned on various hyperparameters to obtain the best scoring. The `GridSearchCV` cross validator is used for optimal model performance tuning.
 >
->${\color{crimson}Baseline \space model \space score}$ 
+>${\color{crimson}Tuned \space model \space score}$ 
 >
 >   ![image](https://github.com/user-attachments/assets/3872bf67-d053-43eb-ad18-abad359688c7) 
 
-> **Repo Notebook**
-The link to repor - 
+>**Model Evaluation**
+The Model performace is evaluated based on traing time, test & train score & ROC curve area.
+>
+> ![image](https://github.com/user-attachments/assets/d65279a1-3192-49a4-b312-6597c3d8c253)     ![image](https://github.com/user-attachments/assets/3a48d1b7-22c9-487a-b8e9-080e4e5c8012)
+
+
+ 
 
 > **Tech Stack**
->> $${\color{mediumblue}Language}$$ Python
+>> $${\color{mediumblue}Language}$$ `python`
 >> 
 >> $${\color{mediumblue}Packages}$$
->> Pandas, Numpy, Seaborn, Plotly, Matplotlib, Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder, PCA, RandomForestClassifier, train_test_split, DummyClassifier, classification_report, accuracy_score,roc_curve, roc_auc_score, LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV
+>> `Pandas`, `Numpy`, `Seaborn`, `Plotly`, `Matplotlib`, `Simple Imputer`, `Column Transformer`, `TargetEncoder`, `LabelEncoder`, `StandardScaler`, `Pipeline`, `OneHotEncode`, `Ordinal Encoder`, `PCA`, `RandomForestClassifier`, `train_test_split`, `DummyClassifier`, `classification_report`, `accuracy_score`,`roc_curve`, `roc_auc_score`, `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier`, `SVC`, `mutual_info_regression`, `GridSearchCV`
 
 ##### This'll be a _Helpful_ Section About the Greek Letter Θ!
 A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
