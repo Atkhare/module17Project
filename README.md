@@ -30,7 +30,7 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
  
 > **Modeling**
 > The problem statement and target variable is of classifier type. To start with first have to baseline the model to collect the `ModelTrainingTime`, `TrainingAccuracyScore` and `TestAccuracyScore`.
-> The baseline matrices is captured by executing & evaluating following ML algorithms `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier` and `SVC`  
+> The baseline matrices is captured by executing & evaluating following ML algorithms `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier` and `SVC`
 
 > **Repo Notebook**
 The link to repor - 
