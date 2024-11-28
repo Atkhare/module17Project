@@ -39,7 +39,10 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
 >   ![image](https://github.com/user-attachments/assets/a1970a2b-ae22-4d7c-bb37-f5478cf2731a)
 >
 > - $${\color{mediumblue}Model \space performance \space tuning}$$
-> The model is now tuned on various hyperparameters to obtain the best scoring. The `GridSearchCV` cross validator is used for optimal performance tuning.  
+> The model is now tuned on various hyperparameters to obtain the best scoring. The `GridSearchCV` cross validator is used for optimal model performance tuning.
+>
+>${\color{crimson}Baseline \space model \space score}$ 
+>
 >   ![image](https://github.com/user-attachments/assets/3872bf67-d053-43eb-ad18-abad359688c7) 
 
 > **Repo Notebook**
