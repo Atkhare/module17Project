@@ -29,7 +29,7 @@ The dataset comes from the UCI Machine Learning repository [link](https://archiv
 > **DATA PREPARATION**
 The data is first analysed on the missing or NAN elements, then the data aggregration is done to analyse the trend & unique components in column and row wise.The data is being imputed for any missing/ unknown values. Also the data encoing is done for catagorical features. The final dataframe is scaled using `StandardScaler' and split in Test & Train datasets. 
 
-> **FEATURE ENGINEERING**
+> **FEATURE ANALYSIS**
 > - Analysed imbalance in Target class from provided dataframe. 
 > - The correlation between dataset features is being analysed by generating the `Correlation Matrix Heatmap` over scaled dataframe.
 > - Executed `PCA` to anayse the scope for dimension reduction.
