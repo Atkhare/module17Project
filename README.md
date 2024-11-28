@@ -65,10 +65,6 @@ The Model performace is evaluated based on traing time, test & train score & ROC
 >**CONCLUSION**
 > The SVC algorithm has scored better performance and accuracy in terms of prediction. The drawback with SVC is the time it takes to execute, however still acceptibe within seconds. The analysis of area covered under ROC curve also shows good score for SVC.  
 
-##### This'll be a _Helpful_ Section About the Greek Letter Θ!
-A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
-
-$${\color{red}Welcome \space \color{lightblue}To \space \color{orange}Stackoverflow}$$
 
 
    
