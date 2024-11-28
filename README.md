@@ -20,7 +20,7 @@ The dataset comes from the UCI Machine Learning repository [link](https://archiv
 > To find the effectiveness of marketting campaigns, Portugese bank reached out to customers from their contact centers and collected the customer perspective. This collected data along with the internal customer data within bank was used to prepare the dataset features for analysis. The classification goal was to determine if a client will subscribe to a term deposite. The team used 3 iterartions of campaign to fine tune the predective model
 
 > **Data Preperation**
-The data is first analysed on the missing or NAN elements, then the data aggregration is done to analyse the trend & unique components in column and row wise.The data is being imputed for any missing/ unknown values. Also the data encoing is done for catagorical features. The final dataframe is scaled using Standard scaler.
+The data is first analysed on the missing or NAN elements, then the data aggregration is done to analyse the trend & unique components in column and row wise.The data is being imputed for any missing/ unknown values. Also the data encoing is done for catagorical features. The final dataframe is scaled using `StandardScaler' and split in Test & Train datasets. 
 
 > **Feature Engineering**
 > - Analysed imbalance in Target class from provided dataframe. 
@@ -28,7 +28,9 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
 > - Executed `PCA` to anayse the scope for dimension reduction.
 > - Scored feature importance using `RandomForestClassifier` and `mutual_info_regression`
  
-
+> **Modeling**
+> The problem statement and target variable is of classifier type. To start with first have to baseline the model to collect the `ModelTrainingTime`, `TrainingAccuracyScore` and `TestAccuracyScore`.
+>  
 
 > **Repo Notebook**
 The link to repor - 
