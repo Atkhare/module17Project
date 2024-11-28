@@ -67,7 +67,7 @@ The Model performace is evaluated based on traing time, test & train score & ROC
 >![image](https://github.com/user-attachments/assets/3a48d1b7-22c9-487a-b8e9-080e4e5c8012)
 
 >**CONCLUSION**
-> The SVC algorithm has scored better performance and accuracy in terms of prediction. The drawback with SVC is the time it takes to execute, however still acceptibe within seconds. The analysis of area covered under ROC curve also shows good score for SVC.  
+> The SVC algorithm has scored better performance and accuracy in terms of prediction. The drawback with SVC is the time it takes to execute when compared to other machine learning algorithms, however still acceptibe within seconds for this model. The analysis of area covered under ROC curve also shows good score for SVC. The SVC is first choice for this classification scenario.  
 
 
 
