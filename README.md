@@ -34,6 +34,13 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
 > - $${\color{mediumblue}Baseline \space Model}$$ 
 > The baseline matrices is captured by executing & evaluating following ML algorithms `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier` and `SVC`.
 >
+>${\color{crimson}Baseline \space model \space score}$
+>
+   ![image](https://github.com/user-attachments/assets/a1970a2b-ae22-4d7c-bb37-f5478cf2731a)
+   
+
+
+>
 > - $${\color{mediumblue}Model \space Tuning}$$
 >   After ontaining the baseline model 
 > 
