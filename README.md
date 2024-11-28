@@ -7,7 +7,7 @@ Text
 > **Overview** 
 In this practical application, the goal is to compare the performance of the classifiers, namely K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines. The data was collect by Portuguese bank that used its own contact-center to do directed marketing campaigns. The telephone, with a human agent as the interlocutor, was the dominant marketing channel, although sometimes with an auxiliary use of the Internet online banking channel (e.g. by showing information to specific targeted client).
 >
-> Used CRISP-DM model to achieve the business goals
+>${\color{crimson}Used \space CRISP-DM \space model \space to \space achieve \space the \space business \space goals}$
 
 ![image](https://github.com/user-attachments/assets/937f6f2a-b9e1-41e8-8396-193a2c46b57a)
 
@@ -30,15 +30,22 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
  
 > **Modeling**
 > The problem statement and target variable is of classifier type. To start with first have to baseline the model to collect the `ModelTrainingTime`, `TrainingAccuracyScore` and `TestAccuracyScore`.
-> The baseline matrices is captured by executing & evaluating following ML algorithms `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier` and `SVC`
+> 
+> - $${\color{mediumblue}Baseline \space Model}$$ 
+> The baseline matrices is captured by executing & evaluating following ML algorithms `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier` and `SVC`.
+>
+> - $${\color{mediumblue}Model \space Tuning}$$
+>   After ontaining the baseline model 
+> 
+> 
 
 > **Repo Notebook**
 The link to repor - 
 
 > **Tech Stack**
->> $${\color{blue}Language}$$ Python
+>> $${\color{mediumblue}Language}$$ Python
 >> 
->> $${\color{blue}Packages}$$
+>> $${\color{mediumblue}Packages}$$
 >> Pandas, Numpy, Seaborn, Plotly, Matplotlib, Simple Imputer, Column Transformer, TargetEncoder, LabelEncoder, StandardScaler, Pipeline, OneHotEncode, Ordinal Encoder, PCA, RandomForestClassifier, train_test_split, DummyClassifier, classification_report, accuracy_score,roc_curve, roc_auc_score, LogisticRegression, KNeighborsClassifier, DecisionTreeClassifier, SVC, mutual_info_regression, GridSearchCV
 
 ##### This'll be a _Helpful_ Section About the Greek Letter Θ!
