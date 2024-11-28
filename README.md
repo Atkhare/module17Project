@@ -17,12 +17,10 @@ The business goal is to find a model that can explain success of a contact with 
 >> $${\color{mediumblue}Packages}$$
 >> `Pandas`, `Numpy`, `Seaborn`, `Plotly`, `Matplotlib`, `Simple Imputer`, `Column Transformer`, `TargetEncoder`, `LabelEncoder`, `StandardScaler`, `Pipeline`, `OneHotEncode`, `Ordinal Encoder`, `PCA`, `RandomForestClassifier`, `train_test_split`, `DummyClassifier`, `classification_report`, `accuracy_score`,`roc_curve`, `roc_auc_score`, `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier`, `SVC`, `mutual_info_regression`, `GridSearchCV`
 >>
->> Link to code repo [Code Repo](model_comparision.ipynb)
+>> $${\color{mediumblue}Repository-path}$$ [Code Repo](model_comparision.ipynb)
 >>
->> Link to Data file [Data file](bank-additional-full.csv)
+>> $${\color{mediumblue}Datafile-path}$$ [Data file](bank-additional-full.csv)
 >> 
->>  
-
 
 > **DATA UNDERSTANDING**
 The dataset comes from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing). The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. The article accompanying the dataset [here](CRISP-DM-BANK.pdf) is being referred for more information on the data and its features.
