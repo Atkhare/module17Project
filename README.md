@@ -16,6 +16,9 @@ The business goal is to find a model that can explain success of a contact with 
 >> 
 >> $${\color{mediumblue}Packages}$$
 >> `Pandas`, `Numpy`, `Seaborn`, `Plotly`, `Matplotlib`, `Simple Imputer`, `Column Transformer`, `TargetEncoder`, `LabelEncoder`, `StandardScaler`, `Pipeline`, `OneHotEncode`, `Ordinal Encoder`, `PCA`, `RandomForestClassifier`, `train_test_split`, `DummyClassifier`, `classification_report`, `accuracy_score`,`roc_curve`, `roc_auc_score`, `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier`, `SVC`, `mutual_info_regression`, `GridSearchCV`
+>>
+>> Link to code repo [Code Repo](model_comparision.ipynb)
+>>  
 
 
 > **DATA UNDERSTANDING**
