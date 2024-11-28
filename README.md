@@ -11,9 +11,15 @@ In this practical application, the goal is to compare the performance of the cla
 
 ![image](https://github.com/user-attachments/assets/937f6f2a-b9e1-41e8-8396-193a2c46b57a)
 
-
 > **Business Understanding**
 The business goal is to find a model that can explain success of a contact with client, i.e. if the client subscribes the term deposit. The classification model can increase campaign efficiency by identifying the main characteristics that affect success, helping in a better management of the available resources (e.g. human effort, phone calls, time) and selection of a high quality and affordable set of potential buying customers.
+
+> **Tech Stack**
+>> $${\color{mediumblue}Language}$$ `python`
+>> 
+>> $${\color{mediumblue}Packages}$$
+>> `Pandas`, `Numpy`, `Seaborn`, `Plotly`, `Matplotlib`, `Simple Imputer`, `Column Transformer`, `TargetEncoder`, `LabelEncoder`, `StandardScaler`, `Pipeline`, `OneHotEncode`, `Ordinal Encoder`, `PCA`, `RandomForestClassifier`, `train_test_split`, `DummyClassifier`, `classification_report`, `accuracy_score`,`roc_curve`, `roc_auc_score`, `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier`, `SVC`, `mutual_info_regression`, `GridSearchCV`
+
 
 > **Data Understanding**
 The dataset comes from the UCI Machine Learning repository [link](https://archive.ics.uci.edu/ml/datasets/bank+marketing). The data is from a Portugese banking institution and is a collection of the results of multiple marketing campaigns. The article accompanying the dataset [here](CRISP-DM-BANK.pdf) is being referred for more information on the data and its features.
@@ -46,18 +52,17 @@ The data is first analysed on the missing or NAN elements, then the data aggregr
 >   ![image](https://github.com/user-attachments/assets/3872bf67-d053-43eb-ad18-abad359688c7) 
 
 >**Model Evaluation**
-The Model performace is evaluated based on traing time, test & train score & ROC curve area.
+The Model performace is evaluated based on traing time, test & train score & ROC curve area. The scores are captured by executing the model on various hyperparameters and then selcting the best parameter.
 >
-> ![image](https://github.com/user-attachments/assets/d65279a1-3192-49a4-b312-6597c3d8c253)     ![image](https://github.com/user-attachments/assets/3a48d1b7-22c9-487a-b8e9-080e4e5c8012)
+>${\color{crimson}ROC \space Curve \space Analysis}$
+>
+> ![image](https://github.com/user-attachments/assets/d65279a1-3192-49a4-b312-6597c3d8c253)     \
+>
+>${\color{crimson}Model \space Scores \space Comparison}$
+>
+>![image](https://github.com/user-attachments/assets/3a48d1b7-22c9-487a-b8e9-080e4e5c8012)
 
 
- 
-
-> **Tech Stack**
->> $${\color{mediumblue}Language}$$ `python`
->> 
->> $${\color{mediumblue}Packages}$$
->> `Pandas`, `Numpy`, `Seaborn`, `Plotly`, `Matplotlib`, `Simple Imputer`, `Column Transformer`, `TargetEncoder`, `LabelEncoder`, `StandardScaler`, `Pipeline`, `OneHotEncode`, `Ordinal Encoder`, `PCA`, `RandomForestClassifier`, `train_test_split`, `DummyClassifier`, `classification_report`, `accuracy_score`,`roc_curve`, `roc_auc_score`, `LogisticRegression`, `KNeighborsClassifier`, `DecisionTreeClassifier`, `SVC`, `mutual_info_regression`, `GridSearchCV`
 
 ##### This'll be a _Helpful_ Section About the Greek Letter Θ!
 A heading containing characters not allowed in fragments, UTF-8 characters, two consecutive spaces between the first and second words, and formatting.
